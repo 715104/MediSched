@@ -1,0 +1,48 @@
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.exe
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.deps.json
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.runtimeconfig.json
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.dll
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.pdb
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Form1.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Resources.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.vbproj.GenerateResource.cache
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.AssemblyInfoInputs.cache
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.AssemblyInfo.vb
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.vbproj.CoreCompileInputs.cache
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.dll
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\refint\MediSched.dll
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.pdb
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.genruntimeconfig.cache
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\ref\MediSched.dll
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient_2.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Update_Patient.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Add_Patient.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient_3.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Logout.resources
+C:\Users\POCHOLO\Documents\Pocholo's Files\Computer Programming Projects\PRACTICES\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Invalid.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.exe
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.deps.json
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.runtimeconfig.json
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.dll
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.pdb
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Add_Patient.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Form1.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Invalid.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Logout.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Resources.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient_2.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient_3.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Update_Patient.resources
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.vbproj.GenerateResource.cache
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.AssemblyInfoInputs.cache
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.AssemblyInfo.vb
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.vbproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.dll
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\refint\MediSched.dll
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.pdb
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.genruntimeconfig.cache
+C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\ref\MediSched.dll
