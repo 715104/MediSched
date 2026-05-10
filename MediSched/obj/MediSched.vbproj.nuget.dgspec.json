@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\VB.NET Project\\MediSched\\MediSched\\MediSched.vbproj": {}
+    "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\MediSched.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\VB.NET Project\\MediSched\\MediSched\\MediSched.vbproj": {
+    "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\MediSched.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\VB.NET Project\\MediSched\\MediSched\\MediSched.vbproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\MediSched.vbproj",
         "projectName": "MediSched",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\VB.NET Project\\MediSched\\MediSched\\MediSched.vbproj",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\MediSched.vbproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\VB.NET Project\\MediSched\\MediSched\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

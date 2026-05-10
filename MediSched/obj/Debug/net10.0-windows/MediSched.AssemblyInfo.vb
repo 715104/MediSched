@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("MediSched"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c688625c0247b5fd52efe1a76e18ed9d939b1d10"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98837401733b96cbdf1ab0d8169f7f6cb4df851e"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("MediSched"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("MediSched"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

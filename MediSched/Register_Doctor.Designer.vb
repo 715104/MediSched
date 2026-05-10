@@ -25,6 +25,7 @@ Partial Class Register_Doctor
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Register_Doctor))
         pnlMain = New Panel()
         pnlFilter = New Panel()
+        chkAccepted = New CheckBox()
         chkPending = New CheckBox()
         btnFilter = New Button()
         lsvPatient = New ListView()
@@ -43,12 +44,9 @@ Partial Class Register_Doctor
         PictureBox3 = New PictureBox()
         btnPatients = New Button()
         Button3 = New Button()
-        PictureBox1 = New PictureBox()
-        btnDashboard = New Button()
         Label1 = New Label()
         MediSched = New Label()
         Label11 = New Label()
-        chkAccepted = New CheckBox()
         pnlMain.SuspendLayout()
         pnlFilter.SuspendLayout()
         pnlNavigation.SuspendLayout()
@@ -56,7 +54,6 @@ Partial Class Register_Doctor
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' pnlMain
@@ -84,6 +81,17 @@ Partial Class Register_Doctor
         pnlFilter.Size = New Size(116, 74)
         pnlFilter.TabIndex = 22
         pnlFilter.Visible = False
+        ' 
+        ' chkAccepted
+        ' 
+        chkAccepted.AutoSize = True
+        chkAccepted.Font = New Font("Bahnschrift", 9.75F)
+        chkAccepted.Location = New Point(11, 38)
+        chkAccepted.Name = "chkAccepted"
+        chkAccepted.Size = New Size(78, 20)
+        chkAccepted.TabIndex = 2
+        chkAccepted.Text = "Accepted"
+        chkAccepted.UseVisualStyleBackColor = True
         ' 
         ' chkPending
         ' 
@@ -197,8 +205,6 @@ Partial Class Register_Doctor
         pnlNavigation.Controls.Add(PictureBox3)
         pnlNavigation.Controls.Add(btnPatients)
         pnlNavigation.Controls.Add(Button3)
-        pnlNavigation.Controls.Add(PictureBox1)
-        pnlNavigation.Controls.Add(btnDashboard)
         pnlNavigation.Controls.Add(Label1)
         pnlNavigation.Controls.Add(MediSched)
         pnlNavigation.Controls.Add(Label11)
@@ -223,7 +229,7 @@ Partial Class Register_Doctor
         ' PictureBox5
         ' 
         PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
-        PictureBox5.Location = New Point(10, 205)
+        PictureBox5.Location = New Point(11, 156)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(32, 31)
         PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
@@ -236,7 +242,7 @@ Partial Class Register_Doctor
         btnLogout.FlatStyle = FlatStyle.Flat
         btnLogout.Font = New Font("Bahnschrift SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnLogout.ForeColor = Color.Gray
-        btnLogout.Location = New Point(11, 205)
+        btnLogout.Location = New Point(12, 156)
         btnLogout.Name = "btnLogout"
         btnLogout.Size = New Size(176, 29)
         btnLogout.TabIndex = 10
@@ -246,7 +252,7 @@ Partial Class Register_Doctor
         ' PictureBox4
         ' 
         PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
-        PictureBox4.Location = New Point(11, 156)
+        PictureBox4.Location = New Point(12, 107)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(32, 31)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
@@ -256,7 +262,7 @@ Partial Class Register_Doctor
         ' PictureBox3
         ' 
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(11, 154)
+        PictureBox3.Location = New Point(12, 105)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(32, 31)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
@@ -269,7 +275,7 @@ Partial Class Register_Doctor
         btnPatients.FlatStyle = FlatStyle.Flat
         btnPatients.Font = New Font("Bahnschrift SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnPatients.ForeColor = Color.Gray
-        btnPatients.Location = New Point(10, 156)
+        btnPatients.Location = New Point(11, 107)
         btnPatients.Name = "btnPatients"
         btnPatients.Size = New Size(176, 29)
         btnPatients.TabIndex = 8
@@ -282,35 +288,12 @@ Partial Class Register_Doctor
         Button3.FlatStyle = FlatStyle.Flat
         Button3.Font = New Font("Bahnschrift SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button3.ForeColor = Color.Gray
-        Button3.Location = New Point(10, 154)
+        Button3.Location = New Point(11, 105)
         Button3.Name = "Button3"
         Button3.Size = New Size(176, 29)
         Button3.TabIndex = 8
         Button3.Text = "Patients"
         Button3.UseVisualStyleBackColor = True
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(10, 104)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(32, 31)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 1
-        PictureBox1.TabStop = False
-        ' 
-        ' btnDashboard
-        ' 
-        btnDashboard.FlatAppearance.BorderColor = Color.White
-        btnDashboard.FlatStyle = FlatStyle.Flat
-        btnDashboard.Font = New Font("Bahnschrift SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnDashboard.ForeColor = Color.Gray
-        btnDashboard.Location = New Point(10, 106)
-        btnDashboard.Name = "btnDashboard"
-        btnDashboard.Size = New Size(176, 29)
-        btnDashboard.TabIndex = 4
-        btnDashboard.Text = "Dashboard"
-        btnDashboard.UseVisualStyleBackColor = True
         ' 
         ' Label1
         ' 
@@ -347,17 +330,6 @@ Partial Class Register_Doctor
         Label11.TabIndex = 16
         Label11.Text = "_______________________________________"
         ' 
-        ' chkAccepted
-        ' 
-        chkAccepted.AutoSize = True
-        chkAccepted.Font = New Font("Bahnschrift", 9.75F)
-        chkAccepted.Location = New Point(11, 38)
-        chkAccepted.Name = "chkAccepted"
-        chkAccepted.Size = New Size(78, 20)
-        chkAccepted.TabIndex = 2
-        chkAccepted.Text = "Accepted"
-        chkAccepted.UseVisualStyleBackColor = True
-        ' 
         ' Register_Doctor
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -377,7 +349,6 @@ Partial Class Register_Doctor
         CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -401,8 +372,6 @@ Partial Class Register_Doctor
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents btnPatients As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents btnDashboard As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents MediSched As Label
     Friend WithEvents Label11 As Label

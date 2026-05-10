@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\MediSched\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|c:\\users\\administrator\\source\\repos\\medisched\\medisched\\register_patient 3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|solutionrelative:medisched\\register_patient 3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|c:\\users\\administrator\\source\\repos\\medisched\\medisched\\register_patient 2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|solutionrelative:medisched\\register_patient 2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|c:\\users\\administrator\\source\\repos\\medisched\\medisched\\register_doctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|solutionrelative:medisched\\register_doctor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|c:\\users\\administrator\\source\\repos\\medisched\\medisched\\update_patient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|solutionrelative:medisched\\update_patient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|c:\\users\\administrator\\source\\repos\\medisched\\medisched\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|solutionrelative:medisched\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|c:\\users\\administrator\\source\\repos\\medisched\\medisched\\add_patient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|solutionrelative:medisched\\add_patient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|c:\\users\\administrator\\source\\repos\\medisched\\medisched\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CE0760C9-7773-E1FF-8F00-FD4F5AC9BCA1}|MediSched\\MediSched.vbproj|solutionrelative:medisched\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add_Patient.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Add_Patient.vb",
+              "RelativeDocumentMoniker": "MediSched\\Add_Patient.vb",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Add_Patient.vb [Design]",
+              "RelativeToolTip": "MediSched\\Add_Patient.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-10T15:11:24.948Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationEvents.vb",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\ApplicationEvents.vb",
+              "RelativeDocumentMoniker": "MediSched\\ApplicationEvents.vb",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\ApplicationEvents.vb",
+              "RelativeToolTip": "MediSched\\ApplicationEvents.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-10T15:11:21.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Update_Patient.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Update_Patient.vb",
+              "RelativeDocumentMoniker": "MediSched\\Update_Patient.vb",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Update_Patient.vb [Design]",
+              "RelativeToolTip": "MediSched\\Update_Patient.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-10T15:11:17.998Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Form1.vb",
+              "RelativeDocumentMoniker": "MediSched\\Form1.vb",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Form1.vb [Design]",
+              "RelativeToolTip": "MediSched\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-10T15:11:05.94Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register_Patient 3.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Register_Patient 3.vb",
+              "RelativeDocumentMoniker": "MediSched\\Register_Patient 3.vb",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Register_Patient 3.vb [Design]",
+              "RelativeToolTip": "MediSched\\Register_Patient 3.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-10T15:11:16.792Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register_Patient 2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Register_Patient 2.vb",
+              "RelativeDocumentMoniker": "MediSched\\Register_Patient 2.vb",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Register_Patient 2.vb [Design]",
+              "RelativeToolTip": "MediSched\\Register_Patient 2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-10T15:11:15.317Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register_Doctor.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Register_Doctor.vb",
+              "RelativeDocumentMoniker": "MediSched\\Register_Doctor.vb",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\MediSched\\MediSched\\Register_Doctor.vb [Design]",
+              "RelativeToolTip": "MediSched\\Register_Doctor.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-10T15:11:11.185Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
