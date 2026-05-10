@@ -17,15 +17,15 @@
         Logout.Show()
     End Sub
 
-    Private Sub lblPending_Click(sender As Object, e As EventArgs) Handles lblPending.Click
+    Private Sub lblPending_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub lblCompleted_Click(sender As Object, e As EventArgs) Handles lblCompleted.Click
+    Private Sub lblCompleted_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub lblCancelled_Click(sender As Object, e As EventArgs) Handles lblCancelled.Click
+    Private Sub lblCancelled_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

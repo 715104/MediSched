@@ -46,3 +46,29 @@ C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\
 C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.pdb
 C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.genruntimeconfig.cache
 C:\Users\chris\OneDrive\Documents\MediSched\MediSched\obj\Debug\net10.0-windows\ref\MediSched.dll
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.exe
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.deps.json
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.runtimeconfig.json
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.dll
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\bin\Debug\net10.0-windows\MediSched.pdb
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Add_Patient.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Form1.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Invalid.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Logout.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Resources.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient_2.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Patient_3.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Update_Patient.resources
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.vbproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.AssemblyInfo.vb
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.sourcelink.json
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.dll
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\refint\MediSched.dll
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.pdb
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\ref\MediSched.dll
+C:\Users\Administrator\Desktop\VB.NET Project\MediSched\MediSched\obj\Debug\net10.0-windows\MediSched.Register_Doctor.resources

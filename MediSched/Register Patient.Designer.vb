@@ -40,13 +40,14 @@ Partial Class Register_Patient
         Label11 = New Label()
         Label2 = New Label()
         pnlMain = New Panel()
-        Label6 = New Label()
         Panel1 = New Panel()
+        lblTotalAppoinments = New Label()
         Label7 = New Label()
+        Label10 = New Label()
         Panel4 = New Panel()
         lblCancelled = New Label()
         Label5 = New Label()
-        Label10 = New Label()
+        Label8 = New Label()
         Panel3 = New Panel()
         lblCompleted = New Label()
         Label4 = New Label()
@@ -54,7 +55,7 @@ Partial Class Register_Patient
         Panel2 = New Panel()
         lblPending = New Label()
         Label3 = New Label()
-        Label8 = New Label()
+        Label6 = New Label()
         pnlNavigation.SuspendLayout()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
@@ -269,69 +270,80 @@ Partial Class Register_Patient
         ' pnlMain
         ' 
         pnlMain.BackColor = Color.WhiteSmoke
-        pnlMain.Controls.Add(Label6)
         pnlMain.Controls.Add(Panel1)
         pnlMain.Controls.Add(Panel4)
         pnlMain.Controls.Add(Panel3)
-        pnlMain.Controls.Add(Label2)
         pnlMain.Controls.Add(Panel2)
+        pnlMain.Controls.Add(Label2)
         pnlMain.Location = New Point(188, -4)
         pnlMain.Name = "pnlMain"
         pnlMain.Size = New Size(621, 481)
         pnlMain.TabIndex = 12
         ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.BackColor = Color.WhiteSmoke
-        Label6.Font = New Font("Bahnschrift", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label6.ForeColor = Color.Black
-        Label6.Location = New Point(26, 211)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(67, 25)
-        Label6.TabIndex = 13
-        Label6.Text = "About"
-        ' 
         ' Panel1
         ' 
         Panel1.BackColor = Color.White
+        Panel1.Controls.Add(lblTotalAppoinments)
         Panel1.Controls.Add(Label7)
-        Panel1.Location = New Point(23, 250)
+        Panel1.Controls.Add(Label10)
+        Panel1.Location = New Point(48, 82)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(528, 157)
-        Panel1.TabIndex = 12
+        Panel1.Size = New Size(234, 151)
+        Panel1.TabIndex = 17
+        ' 
+        ' lblTotalAppoinments
+        ' 
+        lblTotalAppoinments.AutoSize = True
+        lblTotalAppoinments.Font = New Font("Bahnschrift", 39.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblTotalAppoinments.ForeColor = Color.DarkBlue
+        lblTotalAppoinments.Location = New Point(12, 46)
+        lblTotalAppoinments.Name = "lblTotalAppoinments"
+        lblTotalAppoinments.Size = New Size(56, 64)
+        lblTotalAppoinments.TabIndex = 12
+        lblTotalAppoinments.Text = "0"
         ' 
         ' Label7
         ' 
         Label7.AutoSize = True
         Label7.BackColor = Color.Transparent
-        Label7.Font = New Font("Bahnschrift", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label7.ForeColor = Color.Black
-        Label7.Location = New Point(12, 13)
+        Label7.Font = New Font("Bahnschrift SemiBold", 8.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.ForeColor = Color.DimGray
+        Label7.Location = New Point(3, 10)
         Label7.Name = "Label7"
-        Label7.Size = New Size(499, 126)
-        Label7.TabIndex = 13
-        Label7.Text = resources.GetString("Label7.Text")
+        Label7.Size = New Size(102, 13)
+        Label7.TabIndex = 11
+        Label7.Text = "Total Appointments"
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.BackColor = Color.Transparent
+        Label10.ForeColor = SystemColors.ControlDark
+        Label10.Location = New Point(4, 17)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(227, 15)
+        Label10.TabIndex = 15
+        Label10.Text = "____________________________________________"
         ' 
         ' Panel4
         ' 
         Panel4.BackColor = Color.White
         Panel4.Controls.Add(lblCancelled)
         Panel4.Controls.Add(Label5)
-        Panel4.Controls.Add(Label10)
-        Panel4.Location = New Point(438, 84)
+        Panel4.Controls.Add(Label8)
+        Panel4.Location = New Point(327, 278)
         Panel4.Name = "Panel4"
-        Panel4.Size = New Size(151, 81)
-        Panel4.TabIndex = 2
+        Panel4.Size = New Size(234, 152)
+        Panel4.TabIndex = 16
         ' 
         ' lblCancelled
         ' 
         lblCancelled.AutoSize = True
-        lblCancelled.Font = New Font("Bahnschrift", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblCancelled.Font = New Font("Bahnschrift", 39.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblCancelled.ForeColor = Color.Crimson
-        lblCancelled.Location = New Point(12, 33)
+        lblCancelled.Location = New Point(12, 55)
         lblCancelled.Name = "lblCancelled"
-        lblCancelled.Size = New Size(26, 29)
+        lblCancelled.Size = New Size(56, 64)
         lblCancelled.TabIndex = 14
         lblCancelled.Text = "0"
         ' 
@@ -347,16 +359,16 @@ Partial Class Register_Patient
         Label5.TabIndex = 13
         Label5.Text = "Cancelled"
         ' 
-        ' Label10
+        ' Label8
         ' 
-        Label10.AutoSize = True
-        Label10.BackColor = Color.Transparent
-        Label10.ForeColor = SystemColors.ControlDark
-        Label10.Location = New Point(4, 17)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(142, 15)
-        Label10.TabIndex = 18
-        Label10.Text = "___________________________"
+        Label8.AutoSize = True
+        Label8.BackColor = Color.Transparent
+        Label8.ForeColor = SystemColors.ControlDark
+        Label8.Location = New Point(3, 17)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(227, 15)
+        Label8.TabIndex = 15
+        Label8.Text = "____________________________________________"
         ' 
         ' Panel3
         ' 
@@ -364,19 +376,19 @@ Partial Class Register_Patient
         Panel3.Controls.Add(lblCompleted)
         Panel3.Controls.Add(Label4)
         Panel3.Controls.Add(Label9)
-        Panel3.Location = New Point(233, 84)
+        Panel3.Location = New Point(48, 278)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(151, 81)
-        Panel3.TabIndex = 1
+        Panel3.Size = New Size(234, 152)
+        Panel3.TabIndex = 15
         ' 
         ' lblCompleted
         ' 
         lblCompleted.AutoSize = True
-        lblCompleted.Font = New Font("Bahnschrift", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblCompleted.Font = New Font("Bahnschrift", 39.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblCompleted.ForeColor = Color.DarkBlue
-        lblCompleted.Location = New Point(11, 33)
+        lblCompleted.Location = New Point(12, 55)
         lblCompleted.Name = "lblCompleted"
-        lblCompleted.Size = New Size(26, 29)
+        lblCompleted.Size = New Size(56, 64)
         lblCompleted.TabIndex = 13
         lblCompleted.Text = "0"
         ' 
@@ -399,29 +411,29 @@ Partial Class Register_Patient
         Label9.ForeColor = SystemColors.ControlDark
         Label9.Location = New Point(3, 17)
         Label9.Name = "Label9"
-        Label9.Size = New Size(142, 15)
-        Label9.TabIndex = 18
-        Label9.Text = "___________________________"
+        Label9.Size = New Size(227, 15)
+        Label9.TabIndex = 15
+        Label9.Text = "____________________________________________"
         ' 
         ' Panel2
         ' 
         Panel2.BackColor = Color.White
         Panel2.Controls.Add(lblPending)
         Panel2.Controls.Add(Label3)
-        Panel2.Controls.Add(Label8)
-        Panel2.Location = New Point(23, 84)
+        Panel2.Controls.Add(Label6)
+        Panel2.Location = New Point(327, 82)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(151, 81)
-        Panel2.TabIndex = 0
+        Panel2.Size = New Size(234, 153)
+        Panel2.TabIndex = 14
         ' 
         ' lblPending
         ' 
         lblPending.AutoSize = True
-        lblPending.Font = New Font("Bahnschrift", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        lblPending.Font = New Font("Bahnschrift", 39.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         lblPending.ForeColor = Color.DarkBlue
-        lblPending.Location = New Point(12, 32)
+        lblPending.Location = New Point(12, 46)
         lblPending.Name = "lblPending"
-        lblPending.Size = New Size(26, 29)
+        lblPending.Size = New Size(56, 64)
         lblPending.TabIndex = 12
         lblPending.Text = "0"
         ' 
@@ -437,16 +449,16 @@ Partial Class Register_Patient
         Label3.TabIndex = 11
         Label3.Text = "Pending"
         ' 
-        ' Label8
+        ' Label6
         ' 
-        Label8.AutoSize = True
-        Label8.BackColor = Color.Transparent
-        Label8.ForeColor = SystemColors.ControlDark
-        Label8.Location = New Point(3, 17)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(142, 15)
-        Label8.TabIndex = 17
-        Label8.Text = "___________________________"
+        Label6.AutoSize = True
+        Label6.BackColor = Color.Transparent
+        Label6.ForeColor = SystemColors.ControlDark
+        Label6.Location = New Point(3, 17)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(227, 15)
+        Label6.TabIndex = 14
+        Label6.Text = "____________________________________________"
         ' 
         ' Register_Patient
         ' 
@@ -495,21 +507,22 @@ Partial Class Register_Patient
     Friend WithEvents btnLogout As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents pnlMain As Panel
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents Label4 As Label
-    Friend WithEvents lblPending As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents lblCompleted As Label
-    Friend WithEvents lblCancelled As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label7 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents Label8 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents lblTotalAppoinments As Label
+    Friend WithEvents Label7 As Label
     Friend WithEvents Label10 As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents lblCancelled As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents lblCompleted As Label
+    Friend WithEvents Label4 As Label
     Friend WithEvents Label9 As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents lblPending As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label6 As Label
 End Class

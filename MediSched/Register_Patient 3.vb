@@ -17,7 +17,7 @@
         Me.Show()
     End Sub
 
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+    Private Sub Label6_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -25,7 +25,7 @@
 
     End Sub
 
-    Private Sub lblPending_Click(sender As Object, e As EventArgs) Handles lblPending.Click
+    Private Sub lblPending_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -33,7 +33,7 @@
 
     End Sub
 
-    Private Sub lblCancelled_Click(sender As Object, e As EventArgs) Handles lblCancelled.Click
+    Private Sub lblCancelled_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

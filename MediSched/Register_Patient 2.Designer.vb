@@ -29,9 +29,13 @@ Partial Class Register_Patient_2
         chkCompleted = New CheckBox()
         chkPending = New CheckBox()
         btnFilter = New Button()
+        lsvPatient = New ListView()
+        lsvPatientName = New ColumnHeader()
+        lsvContactInfo = New ColumnHeader()
+        lsvSchedule = New ColumnHeader()
+        lsvStatus = New ColumnHeader()
         btnAddPatient = New Button()
         btnUpdate = New Button()
-        dgvPatientData = New DataGridView()
         txtSearch = New TextBox()
         Label2 = New Label()
         Label3 = New Label()
@@ -51,13 +55,9 @@ Partial Class Register_Patient_2
         Label1 = New Label()
         MediSched = New Label()
         Label11 = New Label()
-        Column1 = New DataGridViewTextBoxColumn()
-        Column2 = New DataGridViewTextBoxColumn()
-        Column3 = New DataGridViewTextBoxColumn()
-        Column4 = New DataGridViewTextBoxColumn()
+        CheckBox1 = New CheckBox()
         pnlMain.SuspendLayout()
         pnlFilter.SuspendLayout()
-        CType(dgvPatientData, ComponentModel.ISupportInitialize).BeginInit()
         pnlNavigation.SuspendLayout()
         CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
@@ -73,9 +73,9 @@ Partial Class Register_Patient_2
         pnlMain.BorderStyle = BorderStyle.FixedSingle
         pnlMain.Controls.Add(pnlFilter)
         pnlMain.Controls.Add(btnFilter)
+        pnlMain.Controls.Add(lsvPatient)
         pnlMain.Controls.Add(btnAddPatient)
         pnlMain.Controls.Add(btnUpdate)
-        pnlMain.Controls.Add(dgvPatientData)
         pnlMain.Controls.Add(txtSearch)
         pnlMain.Controls.Add(Label2)
         pnlMain.Controls.Add(Label3)
@@ -88,21 +88,23 @@ Partial Class Register_Patient_2
         ' pnlFilter
         ' 
         pnlFilter.BorderStyle = BorderStyle.FixedSingle
+        pnlFilter.Controls.Add(CheckBox1)
         pnlFilter.Controls.Add(chkCancelled)
         pnlFilter.Controls.Add(chkCompleted)
         pnlFilter.Controls.Add(chkPending)
-        pnlFilter.Location = New Point(465, 136)
+        pnlFilter.Location = New Point(480, 126)
         pnlFilter.Name = "pnlFilter"
-        pnlFilter.Size = New Size(116, 86)
+        pnlFilter.Size = New Size(116, 112)
         pnlFilter.TabIndex = 22
         pnlFilter.Visible = False
         ' 
         ' chkCancelled
         ' 
         chkCancelled.AutoSize = True
-        chkCancelled.Location = New Point(11, 59)
+        chkCancelled.Font = New Font("Bahnschrift", 9.75F)
+        chkCancelled.Location = New Point(11, 82)
         chkCancelled.Name = "chkCancelled"
-        chkCancelled.Size = New Size(78, 19)
+        chkCancelled.Size = New Size(83, 20)
         chkCancelled.TabIndex = 2
         chkCancelled.Text = "Cancelled"
         chkCancelled.UseVisualStyleBackColor = True
@@ -110,9 +112,10 @@ Partial Class Register_Patient_2
         ' chkCompleted
         ' 
         chkCompleted.AutoSize = True
-        chkCompleted.Location = New Point(11, 34)
+        chkCompleted.Font = New Font("Bahnschrift", 9.75F)
+        chkCompleted.Location = New Point(11, 56)
         chkCompleted.Name = "chkCompleted"
-        chkCompleted.Size = New Size(85, 19)
+        chkCompleted.Size = New Size(88, 20)
         chkCompleted.TabIndex = 1
         chkCompleted.Text = "Completed"
         chkCompleted.UseVisualStyleBackColor = True
@@ -120,9 +123,10 @@ Partial Class Register_Patient_2
         ' chkPending
         ' 
         chkPending.AutoSize = True
+        chkPending.Font = New Font("Bahnschrift", 9.75F)
         chkPending.Location = New Point(11, 9)
         chkPending.Name = "chkPending"
-        chkPending.Size = New Size(70, 19)
+        chkPending.Size = New Size(71, 20)
         chkPending.TabIndex = 0
         chkPending.Text = "Pending"
         chkPending.UseVisualStyleBackColor = True
@@ -136,13 +140,48 @@ Partial Class Register_Patient_2
         btnFilter.FlatStyle = FlatStyle.Flat
         btnFilter.Font = New Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         btnFilter.ForeColor = Color.Black
-        btnFilter.Location = New Point(541, 112)
+        btnFilter.Location = New Point(574, 107)
         btnFilter.Name = "btnFilter"
         btnFilter.Size = New Size(22, 25)
         btnFilter.TabIndex = 21
         btnFilter.Text = "▼"
         btnFilter.TextAlign = ContentAlignment.TopCenter
         btnFilter.UseVisualStyleBackColor = False
+        ' 
+        ' lsvPatient
+        ' 
+        lsvPatient.BackColor = SystemColors.Window
+        lsvPatient.Columns.AddRange(New ColumnHeader() {lsvPatientName, lsvContactInfo, lsvSchedule, lsvStatus})
+        lsvPatient.Font = New Font("Bahnschrift SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lsvPatient.ForeColor = SystemColors.MenuText
+        lsvPatient.FullRowSelect = True
+        lsvPatient.GridLines = True
+        lsvPatient.Location = New Point(16, 104)
+        lsvPatient.Name = "lsvPatient"
+        lsvPatient.Size = New Size(582, 264)
+        lsvPatient.TabIndex = 23
+        lsvPatient.UseCompatibleStateImageBehavior = False
+        lsvPatient.View = View.Details
+        ' 
+        ' lsvPatientName
+        ' 
+        lsvPatientName.Text = "Patient Name"
+        lsvPatientName.Width = 180
+        ' 
+        ' lsvContactInfo
+        ' 
+        lsvContactInfo.Text = "Contact Information"
+        lsvContactInfo.Width = 150
+        ' 
+        ' lsvSchedule
+        ' 
+        lsvSchedule.Text = "Schedule of Appointment"
+        lsvSchedule.Width = 160
+        ' 
+        ' lsvStatus
+        ' 
+        lsvStatus.Text = "Status"
+        lsvStatus.Width = 100
         ' 
         ' btnAddPatient
         ' 
@@ -172,24 +211,13 @@ Partial Class Register_Patient_2
         btnUpdate.Text = "Update Patient"
         btnUpdate.UseVisualStyleBackColor = False
         ' 
-        ' dgvPatientData
-        ' 
-        dgvPatientData.BackgroundColor = Color.White
-        dgvPatientData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        dgvPatientData.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column3, Column4})
-        dgvPatientData.Location = New Point(16, 105)
-        dgvPatientData.Name = "dgvPatientData"
-        dgvPatientData.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dgvPatientData.Size = New Size(551, 271)
-        dgvPatientData.TabIndex = 15
-        ' 
         ' txtSearch
         ' 
-        txtSearch.Font = New Font("Bahnschrift", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtSearch.Font = New Font("Bahnschrift", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         txtSearch.ForeColor = Color.DarkGray
         txtSearch.Location = New Point(394, 52)
         txtSearch.Name = "txtSearch"
-        txtSearch.Size = New Size(173, 21)
+        txtSearch.Size = New Size(173, 22)
         txtSearch.TabIndex = 14
         txtSearch.Text = "Search patients..."
         ' 
@@ -418,29 +446,16 @@ Partial Class Register_Patient_2
         Label11.TabIndex = 16
         Label11.Text = "_______________________________________"
         ' 
-        ' Column1
+        ' CheckBox1
         ' 
-        Column1.HeaderText = "Patient Name"
-        Column1.Name = "Column1"
-        Column1.Width = 200
-        ' 
-        ' Column2
-        ' 
-        Column2.HeaderText = "Contact Information"
-        Column2.Name = "Column2"
-        Column2.Width = 120
-        ' 
-        ' Column3
-        ' 
-        Column3.HeaderText = "Schedule of Appointment"
-        Column3.Name = "Column3"
-        ' 
-        ' Column4
-        ' 
-        Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column4.HeaderText = "Status"
-        Column4.Name = "Column4"
-        Column4.SortMode = DataGridViewColumnSortMode.NotSortable
+        CheckBox1.AutoSize = True
+        CheckBox1.Font = New Font("Bahnschrift", 9.75F)
+        CheckBox1.Location = New Point(11, 32)
+        CheckBox1.Name = "CheckBox1"
+        CheckBox1.Size = New Size(78, 20)
+        CheckBox1.TabIndex = 3
+        CheckBox1.Text = "Accepted"
+        CheckBox1.UseVisualStyleBackColor = True
         ' 
         ' Register_Patient_2
         ' 
@@ -456,7 +471,6 @@ Partial Class Register_Patient_2
         pnlMain.PerformLayout()
         pnlFilter.ResumeLayout(False)
         pnlFilter.PerformLayout()
-        CType(dgvPatientData, ComponentModel.ISupportInitialize).EndInit()
         pnlNavigation.ResumeLayout(False)
         pnlNavigation.PerformLayout()
         CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
@@ -500,4 +514,10 @@ Partial Class Register_Patient_2
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents lsvPatient As ListView
+    Friend WithEvents lsvPatientName As ColumnHeader
+    Friend WithEvents lsvContactInfo As ColumnHeader
+    Friend WithEvents lsvSchedule As ColumnHeader
+    Friend WithEvents lsvStatus As ColumnHeader
+    Friend WithEvents CheckBox1 As CheckBox
 End Class

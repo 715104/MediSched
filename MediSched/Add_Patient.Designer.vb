@@ -39,7 +39,7 @@ Partial Class Add_Patient
         cmbStatus.DisplayMember = "Pending"
         cmbStatus.Font = New Font("Bahnschrift SemiBold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         cmbStatus.FormattingEnabled = True
-        cmbStatus.Items.AddRange(New Object() {"Pending", "Completed", "Cancelled"})
+        cmbStatus.Items.AddRange(New Object() {"Pending"})
         cmbStatus.Location = New Point(19, 242)
         cmbStatus.Name = "cmbStatus"
         cmbStatus.Size = New Size(131, 24)

@@ -16,6 +16,9 @@
     <Compile Update="Register Patient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Register_Doctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Register_Patient 2.vb">
       <SubType>Form</SubType>
     </Compile>

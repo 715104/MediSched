@@ -8,7 +8,6 @@
     Public selectedIndex As Integer = -1
 
     Public Sub LoadPatients()
-
         dgvPatientData.Rows.Clear()
 
         For i As Integer = 0 To patientCount - 1
@@ -104,7 +103,7 @@
         Logout.Show()
     End Sub
 
-    Private Sub dgvPatientData_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPatientData.CellClick
+    Private Sub dgvPatientData_CellClick(sender As Object, e As DataGridViewCellEventArgs)
         If e.RowIndex >= 0 Then
             selectedIndex = CInt(dgvPatientData.Rows(e.RowIndex).Tag)
         End If
@@ -191,7 +190,7 @@
     End Sub
 
     Private Sub chkCompleted_CheckedChanged(sender As Object, e As EventArgs) Handles chkCompleted.CheckedChanged
-        FilterStatus()
+        FilterStatus
     End Sub
 
     Private Sub chkCancelled_CheckedChanged(sender As Object, e As EventArgs) Handles chkCancelled.CheckedChanged
@@ -226,7 +225,7 @@
 
     End Sub
 
-    Private Sub dgvPatientData_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvPatientData.CellContentClick
+    Private Sub dgvPatientData_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
 
     End Sub
 End Class
